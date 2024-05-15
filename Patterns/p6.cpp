@@ -1,0 +1,42 @@
+/*
+
+      1
+    2 2
+  3 3 3
+4 4 4 4
+
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+
+  int n;
+  cin >> n;
+
+  int row = 1;
+  int col = 1;
+
+  while (row <= n)
+  {
+    int space = n - row;
+    while (space > 0)
+    {
+      cout << "  ";
+      space--;
+    }
+
+    int col = 1;
+
+    while (col <= row)
+    {
+      cout << row << " ";
+      col++;
+    }
+    cout << endl;
+    row++;
+  }
+
+  return 0;
+}

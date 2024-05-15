@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ejs": "html",
+			"iostream": "cpp",
+			"variant": "cpp",
+			"ostream": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"regex": "cpp",
+			"new": "cpp",
+			"initializer_list": "cpp",
+			"valarray": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"utility": "cpp",
+			"sstream": "cpp",
+			"stack": "cpp"
+		}
+	}
+}
